@@ -6,8 +6,8 @@ Load a TF-IDF vectorizer, a pickled model and predict a class, based on text pas
 
 ## Buildpacks required:
 
-https://buildpack-registry.s3.amazonaws.com/buildpacks/heroku-community/apt.tgz
-heroku/python
+- https://buildpack-registry.s3.amazonaws.com/buildpacks/heroku-community/apt.tgz
+- heroku/python
 
 ## Features
 
