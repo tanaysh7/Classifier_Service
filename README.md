@@ -2,7 +2,7 @@
 
 A web serive that returns predictions from a pre-trained machine learning model.
 
-Load a TF-IDF vectorizer, a pickled model and predict a class, based on text passed in url parameters.
+Load a **TF-IDF vectorizer**, a pickled **MLP Classifier model** and predict a class, based on text passed in url parameters.
 
 ## Buildpacks required:
 
