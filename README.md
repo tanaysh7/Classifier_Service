@@ -27,10 +27,9 @@ heroku/python
 
     $ heroku run python manage.py migrate
 
-See also, a [ready-made application](https://github.com/heroku/python-getting-started), ready to deploy.
+See also, a [ready-made application](https://chat-classifier.herokuapp.com/), ready to deploy.
+
+Prediction: [link](https://chat-classifier.herokuapp.com/predict_chat/Hi%20product%20question)
 
 
 ## License: MIT
-
-## Further Reading
-
