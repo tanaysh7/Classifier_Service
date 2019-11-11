@@ -15,10 +15,12 @@ Including another URLconf
 """
 
 from django.contrib import admin
-from django.urls import path
+from django.urls import path,re_path
 from chat_classifier import views
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
-    path('', views.home, name='home')
+    path('', views.home, name='home'),
+    #path('predict_chat', views.predict_chat, name='predict_chat'),
+    path('predict_chat/<str:chat_string>', views.predict_chat, name='predict_chat')   
 ]
