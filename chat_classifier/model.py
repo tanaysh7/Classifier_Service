@@ -15,15 +15,14 @@ def predict(text):
     
     try:
         if loaded_model.predict(vec.transform([text]))[0]:
-            #loaded_model.acc
+            
             return {
             "class" :"C",
-            "probability_score":"0.6"}
+            "probability_score":max(loaded_model.predict_proba(vec.transform([text]))[0])}
         else:
             return {"class" :"B",
-            "probability_score":"0.6"}
+            "probability_score":max(loaded_model.predict_proba(vec.transform([text]))[0])}
     except:
         return {
             "class" :"C",
             "probability_score":"0.6"}
-       
